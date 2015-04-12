@@ -1,0 +1,49 @@
+#content div.bytewindguru table, 
+#content div.bytewindguru caption, 
+#content div.bytewindguru tbody, 
+#content div.bytewindguru tfoot, 
+#content div.bytewindguru thead, 
+#content div.bytewindguru tr, 
+#content div.bytewindguru th, 
+#content div.bytewindguru td {
+    margin: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+/**
+* This is a copy of the windguru/wg_images/wgstyle.css that has been modified so that the theme does not influence the appearance of the forecast.
+**/
+#content div.bytewindguru div.wgfcst table.forecast {
+	font-size: 11px;
+	font-family: 'Arial CE', 'Helvetica CE', Arial, Helvetica, sans-serif;
+	color:black;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#content div.bytewindguru div.wgfcst table.forecast-ram {
+	background-color: #EAEAEA;
+	border: 1px solid #666666;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#content div.bytewindguru div.wgfcst a:link {
+	color: #000099;
+}
+
+#content div.bytewindguru div.wgfcst a:visited{
+	color: #000099;
+}
+
+/** Additional Theme Override Rules **/
+#content div.bytewindguru img { border: 0; box-shadow: none; }
+
+table.forecast td {
+	border:1px solid white;
+	padding: 1px;
+	line-height: 14px;
+}
